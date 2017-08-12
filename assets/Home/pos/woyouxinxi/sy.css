@@ -1,0 +1,50 @@
+.container-design {
+    width: 100%;
+}
+.bgcolor {
+    background: #fff;
+    position: relative;
+}
+.design-1,.design-2,.design-3 {
+    position: relative;
+    top: -15px;
+    width: 100%;
+}
+
+.design-1 {
+    /*margin-top: 35px;*/
+
+    clear: both;
+}
+.design-2 {
+    background: #f6f6f6;
+}
+.font-design {
+    margin-left: 5%;
+    width: 90%;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.font-design h2,.font-design h4 {
+    margin-left: 1%;
+    width: 98%;
+}
+.design-1 .font-design {
+    margin-top:0;
+}
+.design-2 .font-design,.design-3 .font-design {
+    padding-top: 20%;
+}
+.design-3 .font-design h2 {
+   margin-left: 5%;
+}
+.bt h6 {
+    margin-bottom: -10px;
+    padding-top: 5px;
+}
+@media (min-width: 992px) {
+    .design-1 {
+        margin-top: 50px;
+        clear: both;
+    }
+}

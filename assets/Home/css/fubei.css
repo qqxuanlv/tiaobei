@@ -1,0 +1,199 @@
+body {
+    font-size: 62.5%;
+    font-family: "微软雅黑";
+}
+.fn-left{
+    float: left;
+}
+.fn-right{
+    float:right;
+}
+.fb-box{
+    width:100%;
+}
+
+.fb-center{
+    width:1200px;
+    margin:auto;
+}
+.fb-center img{
+    display: inline-block;
+    position: relative;
+}
+.fb-love{
+    background: #ecf4f7;
+}
+.fb-future{
+    background: #ecf4f7;
+}
+.fubeiBaner{
+    width: 100%;
+    height: 417px;
+}
+.firstBanner{
+    background: url("../images/fubei/fubeiIntr_top01.jpg") no-repeat;
+    background-size: cover;
+}
+.secondBanner{
+    background: url("../images/fubei/fubeiIntr_top02.jpg") no-repeat;
+    background-size: cover;
+}
+.thirdeBanner{
+    background: url("../images/fubei/fubeiIntr_top03.jpg") no-repeat;
+    background-size: cover;
+}
+.fb-do{
+    background: #fff;
+}
+.fb-is{
+    background: url("../images/fubei/fubei_is.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fb-isImg{
+    display: inline-block;
+    float: left;
+    margin-top: 137px;
+    margin-left: 60px;
+}
+.fb-doWord{
+    padding-top: 255px;
+    font-size: 16px;
+}
+.fb-padding{
+    display: inline-block;
+    padding-top: 6px;
+}
+.fb-payway{
+    background: url("../images/fubei/fubei_paywayBG.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fb-payDetail{
+    width: 100%;
+    padding-top: 166px;
+}
+.fb-paywayDetail{
+    display: inline-block;
+    width: 224px;
+    height: 58px;
+    line-height: 58px;
+    color: #fff;
+    background: #0082b7;
+    font-size: 18px;
+    text-align: center;
+    border-left: 1px solid #009fe9;
+    border-bottom: 1px solid #009fe9;
+    border-top: 1px solid #009fe9;
+    margin-left: -5px;
+
+}
+.fb-paywayDetail:hover{
+    background: #009fe9;
+}
+.fb-paywayImg{
+    margin: auto;
+    margin-top: 84px;
+}
+.fb-payWayLogo{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: -5px
+}
+
+
+.fb-select{
+    background: #009fe9;
+}
+.fb-btn{
+    display: inline-block;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 40px;
+    margin-left: 488px;
+    background: #009fe9;
+    color: #fff;
+    text-align: center;
+}
+.fb-market{
+    background:#fff;
+}
+.fb-marketDetail{
+    margin-top: 30px;
+    height: 625px;
+    /*background: url("../images/fubei/fubei-market.png") no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+}
+.fb-market a{
+    display: inline-block;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 488px;
+    background: #009fe9;
+    color: #fff;
+    text-align: center;
+}
+.fb-advan{
+    background: url("../images/fubei/fubei_AD.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fb-advan a{
+    display: inline-block;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 720px;
+    margin-left: 488px;
+    background: #009fe9;
+    color: #fff;
+    text-align: center;
+}
+.fb-border{
+    border: 1px solid #e5e5e5;
+}
+.h2{
+    color:#3da2e2;
+    height:1.8rem;
+    margin-top:6rem;
+    margin-bottom:1rem;
+    margin-left:1.6rem;
+}
+.fb-center ul{
+    display: block;
+    width:40rem;
+}
+.fb-center ul li{
+    font-size:1rem;
+    line-height: 2rem;
+    color:#3a3a3a;
+}
+.fb-center ul li i{
+    font-style: normal;
+    font-size:1.6rem;
+    font-weight:600;
+    position: relative;
+    top:0.2rem;
+    margin-left:0.7rem;
+}
+.fb-bottom{
+    display: block;
+    width:100%;
+    text-align: center;
+}
+.fb-bottom img{
+    height:1.8rem;
+    margin:1.5rem auto;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height:0;
+    clear:both;
+    visibility: hidden;
+}
+
+.clearfix { *zoom:1; }

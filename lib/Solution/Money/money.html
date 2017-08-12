@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>挑呗支付简介-【挑呗支付宝代理 支付宝服务窗代理加盟】</title>
+	<link rel="icon" href="http://www.51fubei.com/assets/common/images/favicon.ico" type="http://www.51fubei.com/assets/common/images/x-icon" />
+	<link rel="shortcut icon" href="http://www.51fubei.com/assets/common/images/favicon.ico" type="http://www.51fubei.com/assets/common/images/x-icon" />
+	<meta name="keywords" content="挑呗支付简介,挑呗,支付宝服务窗,支付宝服务窗加盟,支付宝服务窗代理,支付宝代理,支付宝加盟" />
+	<meta name="description" content="挑呗(云管家)是国内最大的支付宝服务窗智能服务平台，是支付宝官方首批授权代理的ISV渠道商。集支付宝pos，挑呗wifi，打通口碑折扣，完美对接支付宝服务窗高级接口，帮助实现商圈、机场、餐饮、景区等多个O2O行业解决方案，助力传统行业进行互联网+服务全面升级。" />
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+	<link rel="stylesheet" href="http://localhost/assets/Home/tiaobei/css/reset.css?v=1123442" />
+
+	<link rel="stylesheet" href="http://localhost/assets/Home/tiaobei/css/footBottom.css?v=1123442" />
+	<link rel="stylesheet" href="http://localhost/assets/Home/tiaobei/css/nfb.css?v=1123442" />
+	<script type="text/javascript" src="http://localhost/assets/Home/tiaobei/js/jquery-1.10.22.min.js?v=1123442"></script>
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="http://localhost/assets/Home/tiaobei/pos/woyouxinxi/style.css">
+	<link rel="stylesheet" href="http://localhost/assets/Home/tiaobei/pos/woyouxinxi/sy.css">
+	<link rel="stylesheet" href="http://localhost/assets/Home/tiaobei/pos/woyouxinxi/xwx.css">
+	<link rel="stylesheet" href="http://localhost/assets/Home/tiaobei/pos/woyouxinxi/zq.css">
+	<link rel="stylesheet" href="http://localhost/assets/Home/tiaobei/css/pos.css">
+	<style>
+		ul {
+			margin-bottom: 0;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		.g-float {
+			float: left;
+			width: 210px;
+			height: 210px;
+			text-align: center;
+			border-radius: 50%;
+			border: 1px solid #dadbdb;
+		}
+
+		.g-payway-img {
+			margin-top: 36px;
+			margin-bottom: 14px;
+		}
+
+		.g-payway-imgTitle {
+			padding-bottom: 20px;
+			font-size: 18px;
+			color: #34475e;
+			font-weight: 600;
+		}
+
+		.g-payway-imgcontent {
+			font-size: 12px;
+			color: #666666;
+			font-weight: 500;
+		}
+
+		.g-paywy-imgcontentBr {
+			display: inline-block;
+			padding-top: 4px;
+		}
+
+		.g-blue {
+			color: #00a0e8!important;
+		}
+	</style>
+</head>
+
+<body>
+<!-------------首页改版----JUST PLAY 2016/06/14-------------->
+<!-------------首页改版----assets/home/fubei/css/indextop.css-------------->
+
+<?php
+	 			require('../../../header.php');
+	 ?>
+<script type="text/javascript">
+    $(function() {
+        $(".close").click(function() {
+            $(".notice").hide();
+            $(".head-notice").hide();
+        });
+    })
+</script>
+<script>
+    (function($) {
+        // $element为jQuery对象数组，第一个是父元素，第二个active的元素;
+        // boolean 判断隐藏(0)还展现(1);
+        function bindevenfn(e, $element, boolean) {
+
+            var $parent = $element[0],
+                $active = $element[1];
+            if(boolean) {
+                $parent.show();
+                $active.addClass("active");
+            } else {
+                $parent.hide();
+                $active.removeClass("active");
+            }
+        }
+        $(".second-menu").on("mouseover", function(e) {
+            bindevenfn(e, [$(this).find(".dropdown-menu-super"), $(this)], 1);
+        })
+            .bind("mouseleave", function(e) {
+                bindevenfn(e, [$(this).find(".dropdown-menu-super"), $(this)], 0);
+                checkIndex();
+            });
+        $(".third-menu").on("mouseover", function(e) {
+            bindevenfn(e, [$(".dp-menu-all"), $("#third-menu")], 1);
+        }).bind("mouseleave", function(e) {
+            bindevenfn(e, [$(".dp-menu-all"), $("#third-menu")], 0);
+            checkIndex();
+        }).bind("mousemove", function(e) {
+            bindevenfn(e, [$(".dp-menu-all"), $("#third-menu")], 1);
+        });
+        //获取url最后一个产生加acitve
+        $('a').click(function() {
+            var id = $(this).attr('data-id');
+            sessionStorage.setItem("menu-id", id)
+        });
+
+        function checkIndex() {
+            var id = sessionStorage.getItem("menu-id") || 0;
+            $("#nav-bar>li").removeClass("active").eq(id).addClass("active");
+        }
+        checkIndex()
+    })(jQuery);
+    $(function() {
+        $('#serve-project').click(function() {
+            window.location = "/Home/Index/ka/to/5/s/4";
+        })
+    })
+</script>
+
+<div style="text-align: center;width: 100%;margin-top: 30px"><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/banner_03.jpg" style="width: 100%;" alt="" /></div>
+<div class="block3" style="text-align: center;margin-top: 60px;">
+	<div style="text-align: center;padding-top: 690px;width: 1200px;margin-left: auto;margin-right: auto">
+		<div id="pay_way_01" class="g-float" style="margin-left: 120px"><img id="g-paywayImg_01" class="g-payway-img" src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/payway_noSelect_01.png" alt="">
+			<div id="g-paywayTitle_01" class="g-payway-imgTitle">条码支付</div>
+			<div id="g-paywayContent_01" class="g-payway-imgcontent">用户打开支付宝钱包的付款界面 <br><span class="g-paywy-imgcontentBr">商户扫码后提示完成支付</span></div>
+		</div>
+		<div id="pay_way_02" class="g-float" style="margin-left: 36px"><img id="g-paywayImg_02" class="g-payway-img" src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/payway_noSelect_02.png" alt="">
+			<div id="g-paywayTitle_02" class="g-payway-imgTitle">扫码支付</div>
+			<div id="g-paywayContent_02" class="g-payway-imgcontent">用户打开支付宝钱包的付款界面 <br><span class="g-paywy-imgcontentBr">商户扫码后提示完成支付</span></div>
+		</div>
+		<div id="pay_way_03" class="g-float" style="margin-left: 36px"><img id="g-paywayImg_03" class="g-payway-img" src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/payway_noSelect_03.png" alt="">
+			<div id="g-paywayTitle_03" class="g-payway-imgTitle">声波支付</div>
+			<div id="g-paywayContent_03" class="g-payway-imgcontent">用户打开支付宝钱包的付款界面<br><span class="g-paywy-imgcontentBr">商户扫码后提示完成支付</span></div>
+		</div>
+		<div id="pay_way_04" class="g-float" style="margin-left: 36px"><img id="g-paywayImg_04" class="g-payway-img" src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/payway_noSelect_04.png" alt="">
+			<div id="g-paywayTitle_04" class="g-payway-imgTitle">移动支付</div>
+			<div id="g-paywayContent_04" class="g-payway-imgcontent">用户打开支付宝钱包的付款界面<br><span class="g-paywy-imgcontentBr">商户扫码后提示完成支付</span></div>
+		</div>
+	</div>
+</div>
+<div style="text-align: center;margin-top: 50px;color: #777777">
+	<p style="font-size: 25px">挑呗可以让<span style="color: #00a0ea">营销更聪明</span></p>
+	<p style="margin-top: 20px">支付后场景，支付即会员，以前结账=付款结束，现在结账=新服务的开始</p>
+	<div style="border: 1px dotted #00a0ea;width: 1200px;margin-left: auto;margin-right: auto;margin-top: 20px;padding: 20px 0">
+		<p>总参与人数为<span style="color: red;font-weight: bold">2800万人</span>，最小年龄<span style="color: red;font-weight: bold">4</span>岁，最大年龄为<span style="color: red;font-weight: bold">92</span>岁，<span style="color: red;font-weight: bold">92.4万</span>大爷大妈参与双12。更重要的是我们看到互联网对线下商业的反哺，线</p>
+		<p>下商业正变得更加简单高效。<span style="color: #00a0ea;font-weight: bold">单笔收银时间从一分钟变为15秒，系统承载力平均提升100倍</span>。让更多人爱上线下实体店，双12一天为线下商</p>
+		<p>户增加<span style="color: red;font-weight: bold">1950万新会员</span></p>
+		<p style="margin-top: 20px">线下商家，当天平均客流增长超过<span style="color: red;font-weight: bold">100%</span>。让线下商业正变得<span style="color: #00a0ea;font-weight: bold">更加聪明和贴心</span>,支付即会员，以前结账=付款结束，现在结账=新服务的开始</p>
+	</div>
+	<p style="margin-top: 40px">挑呗收银台，支付、卡券核销、电子会员，一键搞定</p>
+</div>
+<div style="text-align: center;margin-top: 50px;"><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/7.png" alt="" /></div>
+<div style="text-align: center;font-size: 16px;margin-top: 100px;">
+	各种官方补贴，随机立减，满十减五，随机红包
+</div>
+<div style="height: 361px;text-align: center;margin-top: 60px;background:url(http://www.51fubei.com/assets/Home/fubei/images/pos/cashier_01.png)no-repeat;background-position: center;background-size: cover "></div>
+<div style="text-align: center;margin-top: 60px;height:280px;width: 100%;">
+	<div class="clearfix" style="width: 1000px;margin: auto;"><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_02.png" alt="" /></div>
+</div>
+<div style="text-align: center;font-size: 24px;font-weight: 600">
+	挑呗为商家 <span style="color: #3fabf5">提供多种移动支付解决方案</span></div>
+<div style="text-align: center;margin-top: 80px;"><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_03.png" alt="" /></div>
+<div style="text-align: center;margin-top: 60px;"><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_05.png" alt="" /></div>
+<div style="text-align: center;margin-top: 60px;"><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/pay_app.png" alt="" /></div>
+<div style="text-align: center;margin-top: 60px;"><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_06.png" alt="" /></div>
+<div style="text-align: center;margin-top: 80px;font-size: 24px;font-weight: 600">
+	挑呗资质: <span style="color: #3fabf5">支付宝/微信授权系统开发商</span></div>
+<div style="text-align: center;margin-top: 70px;">
+	<div class="clearfix" style="width: 1200px;margin: auto;">
+		<div class="news-items clearfix">
+			<div class="banner-col-4 g-width-half">
+				<div><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_01_01.png?v=1123442" alt=""></div>
+			</div>
+			<div class="banner-col-4 g-width-half">
+				<div><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_01_02.png?v=1123442" alt=""></div>
+			</div>
+			<div class="banner-col-4 g-width-half">
+				<div><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_01_03.png?v=1123442" alt=""></div>
+			</div>
+			<div class="banner-col-4 g-width-half">
+				<div><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_01_04.png?v=1123442" alt=""></div>
+			</div>
+		</div>
+		<div class="news-items clearfix">
+			<div class="banner-col-4 g-width-half">
+				<div><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_02_01.png?v=1123442" alt=""></div>
+			</div>
+			<div class="banner-col-4 g-width-half">
+				<div><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_02_02.png?v=1123442" alt=""></div>
+			</div>
+			<div class="banner-col-4 g-width-half">
+				<div><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_02_03.png?v=1123442" alt=""></div>
+			</div>
+			<div class="banner-col-4 g-width-half">
+				<div><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_02_04.png?v=1123442" alt=""></div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div style="height: 870px;text-align: center;background: url(http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_08.png) no-repeat;background-size: cover;background-position: center"></div>
+<div style="text-align: center;margin-top: 70px;"><img src="http://www.51fubei.com/assets/Home/fubei/images/pos-new/cashier_09.png" alt="" /></div>
+<div style="height: 590px;text-align: center;margin-top: 80px;background: url(http://www.51fubei.com/assets/Home/fubei/images/pos-new/pos_last.png) no-repeat;background-position: center;background-size: cover"></div>
+
+<?php
+			require("../../../footer.php");
+		?>
+<!-- <div id="online_qq_layer" ><div id="online_qq_tab"><div class="online_icon"><a title="" id="floatShow" style="display:block" href="javascript:void(0);"></a><a title="" id="floatHide" style="display:none" href="javascript:void(0);"></a></div></div><div id="onlineService" style="display: none;"><div class="online_windows overz"><div class="online_w_top"><p style="margin-top:15px; margin-bottom:0;">在线时间</p><p style="margin-bottom:0;">8:00-20:00</p></div><div class="online_w_c overz"><div class="online_bar collapse" id="onlineSort1"><h2><a>加盟合作咨询</a></h2><div class="online_content overz" id="onlineType1" style="display: block;"><ul class="overz"><li><a target="_blank" href="tencent://message/?Menu=yes&uin=907403872&Site=itbulu&Service=300&sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45" class="qq_icon"><img src="http://www.51fubei.com/assets/Home/fubei/images/online/qq-icon.png?v=1123442"><span class="textSpan">薛经理</span></a><span class="toTel">13738091643</span></li><li><a target="_blank" href="tencent://message/?Menu=yes&uin=781506084&Site=itbulu&Service=300&sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45" class="qq_icon"><img src="http://www.51fubei.com/assets/Home/fubei/images/online/qq-icon.png?v=1123442"><span class="textSpan">龙经理</span></a><span class="toTel">18314888761</span></li><li><a target="_blank" href="tencent://message/?Menu=yes&uin=519701737&Site=itbulu&Service=300&sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45" class="qq_icon"><img src="http://www.51fubei.com/assets/Home/fubei/images/online/qq-icon.png?v=1123442"><span class="textSpan">陶经理</span></a><span class="toTel">18989472040</span></li><li><a target="_blank" href="tencent://message/?Menu=yes&uin=2911245641&Site=itbulu&Service=300&sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45" class="qq_icon"><img src="http://www.51fubei.com/assets/Home/fubei/images/online/qq-icon.png?v=1123442"><span class="textSpan">陈经理</span></a><span class="toTel">15988165993</span></li></ul></div></div><div class="online_bar collapse" id="onlineSort3"><h2><a onClick="changeOnline(3)">招商热线</a></h2><div class="online_content overz" id="onlineType3" style="display: block;"><ul class="overz"><li>电话:4008-378-278</li></ul></div></div><div class="online_bar collapse" id="onlineSort3"><h2><a onClick="changeOnline(3)">服务热线</a></h2><div class="online_content overz" id="onlineType3" style="display: block; border-bottom:none;"><ul class="overz"><li>电话:4008-957-158</li></ul></div></div></div></div></div></div> -->
+
+</body>
+<style>
+	.g-width-half {
+		float: left;
+		width: 25%;
+	}
+</style>
+
+
+</html>

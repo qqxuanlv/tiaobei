@@ -1,0 +1,11 @@
+
+#jl{margin-top: 10%; margin-bottom: 30px;}
+#mid{border: #eee 10px solid; padding:100px 80px;min-width: 400px;}
+#zp{border-bottom: 2px #BD1C2C solid; border-top: 2px #BD1C2C solid; height: 140px;margin-bottom: 100px;min-width:300px;}
+#list{list-style: none;}
+#list li{height: 100px; border:1px #ccc solid ; border-bottom: none; border-left: none; cursor:pointer;padding:38px 16px; font-family: "微软雅黑"; font-size: 1.6em;}
+#list li:hover{background: #eee;}
+
+#left{min-width: 300px;}
+#right{min-width: 300px;}
+footer{margin-top: 40px;}

@@ -1,0 +1,11 @@
+.fl{
+	position: fixed;
+	top:400px;right: 3%;
+	background: dodgerblue;
+	color: white;
+	width: 200px;
+	height: 230px;
+	padding: 20px 0px;
+}
+#last_li{margin-top: 10px;margin-bottom: 10px; }
+#last_li button{color:dodgerblue;}

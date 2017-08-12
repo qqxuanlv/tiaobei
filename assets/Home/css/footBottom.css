@@ -1,0 +1,208 @@
+.footer {
+	background: #f9f9f9;
+}
+.foot-content {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 25px 0
+}
+.foot-content:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+.foot-box1 {
+	float: left;
+	border-left: 1px solid #e5e5e5;
+	width: 200px;
+	padding: 0 40px 0 60px;
+}
+.foot-title {
+	font-size: 16px;
+	color: #151515;
+	line-height: 35px;
+}
+.foot-link {
+	display: block;
+	color: #4b4b4b;
+	line-height: 25px;
+	font-size: 14px;
+}
+.foot-box2 {
+	float: left;
+	width: 230px;
+	padding: 0 45px;
+	border-left: 1px solid #e5e5e5;
+}
+.foot-box2 img {
+	border: 1px solid #e5e5e5;
+	margin-bottom: 7px;
+}
+.foot-box3 {
+	float: left;
+	width: 270px;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+.foot-box3 img {
+	border: 1px solid #e5e5e5;
+	margin-left: 45px;
+}
+.wx1 {
+	color: #5a5a5a;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.wx2 {
+	color: #5a5a5a;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+p.foot-address {
+	font-size: 12px;
+	color: #484848;
+	line-height: 40px;
+	text-align: center;
+	background: #fff;
+	margin-bottom: 0;
+}
+
+/***********右侧QQ在线************/
+.overz{ 
+	overflow:auto; 
+	zoom:1; 
+	overflow-x:hidden; 
+	overflow-y:hidden;
+}
+.online_icon{
+	width:34px; 
+	height:151px; 
+	overflow:hidden; 
+}
+.online_icon a{ 
+	display:block; 
+	width:34px; 
+	height:151px; 
+	background:url(../images/online/online_bg.png) no-repeat; 
+}
+.online_windows{ 
+	width:198px;
+	text-align: center;
+}
+.online_w_top{ 
+	height:70px;
+	background: #00a0e9;
+	color: #fff;
+	border-radius: 15px 0 0 0;
+	border: 1px solid #00a0e9;
+	font-size: 16px;
+}
+.online_w_top p {
+	line-height: 25px;
+}
+.online_w_c{ 
+	padding:0 5px;
+}
+.online_w_bottom{ 
+	height:29px; 
+}
+.online_content{ 
+	padding-top:5px; 
+}
+.online_content a.qq_icon{ 
+	cursor:pointer;
+	color:#444650;
+}
+.online_bar h2{  
+	line-height:27px; 
+	font-size:12px; 
+	color:#666; 
+	margin: 0;
+	font-weight: normal;
+}
+.online_bar h2 a{ 
+	display:block; 
+	color: #00a0e9;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+}
+.toTel {
+	padding-left: 10px;
+	vertical-align: 5px;
+}
+.expand h2 a{ 
+
+}
+.collapse h2 a{ 
+
+}
+.online_content{ 
+	border-bottom:1px solid #eee; 
+}
+.online_content ul li{ 
+	height:30px; 
+	line-height:30px; 
+	font-size: 14px;
+	padding: 2px;
+}
+#online_qq_layer {
+	position:fixed; 
+	right:0px; 
+	top:90px;
+	z-index:10000;
+}
+#online_qq_tab {
+	float:left; 
+	margin-top: 140px;
+}
+#onlineService {
+	float:left; 
+	margin-left:-3px; 
+	display:none;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 15px 0 0 15px;
+}
+#onlineType1, #onlineType2, #onlineType3, #onlineType4, #onlineType5, #onlineType6 {
+	display:none;
+}
+#onlineType1 {
+	display:block;
+}
+.textSpan {
+	vertical-align: 5px;
+}
+.friend-link {
+	height: 65px;
+	background: #fff;
+	text-align: center;
+}
+.friend-link > div {
+	width: inherit;
+	height: 65px;
+	box-sizing: border-box;
+	margin: auto;
+	padding-top: 15px;
+}
+.friend-link a {
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	width: 140px;
+	height: 36px;
+	line-height: 36px;
+	color: #333;
+	margin-right: 36px;
+}
+.friend-link a:last-child {
+	margin-right: 0;
+}
+.friend-link a img {
+	width: 130px;
+	height: 36px;
+}

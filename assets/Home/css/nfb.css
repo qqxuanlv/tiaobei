@@ -1,0 +1,147 @@
+.clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.new-online-qq {
+    width: 140px;
+    position: fixed;
+    right: 30px;
+    top: 160px;
+    z-index: 9999;
+    font-family: Arial, "Microsoft Yahei";
+}
+
+.half-round {
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 115px;
+    background: #c83132;
+    position: relative;
+}
+
+.half-round .close-qq {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.half-round p {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.half-round span {
+    font-size: 16px;
+}
+
+.online-qq-body {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    background: #0099ff;
+    height: auto;
+    text-align: center;
+}
+
+.online-qq-body .body-drop {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.online-qq-body .white {
+    color: #0099ff;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.body-text {
+    padding: 10px 10px;
+}
+
+.body-text span {
+    color: #fff;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.body-text p {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0 0 0;
+}
+
+.online-qq-more {
+    background: #0099ff;
+    padding-top: 5px;
+}
+
+.online-qq-more .back {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.online-qq-more .qq-item {
+    margin: 5px;
+    padding: 10px 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+.qq-item a{
+    display: block;
+    clear: both;
+    height: 22px;
+    cursor: pointer;
+}
+.online-qq-more .qq-icon {
+    display: block;
+    float: left;
+}
+
+
+.online-qq-more .qq-name {
+    display: block;
+    float: right;
+    color: #454545;
+    font-size: 14px;
+}
+
+.online-qq-more .qq {
+    clear: both;
+    padding-top: 5px;
+    color: #454545;
+    font-size: 14px;
+}
+
+.foot-join {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background: #39a9f5;
+    cursor: pointer;
+}
+.foot-join p{
+    color: #fff;
+}
+/*# sourceMappingURL=nfb.css.map */
